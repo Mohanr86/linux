@@ -1,0 +1,28 @@
+echo "Mohan international PV LTD"
+echo "No.1, main road, madhur"
+echo "------------------------------"
+echo "employee payroll system"
+echo "--------------------------------"
+
+echo "enter the employee no: "
+read a
+
+echo "employee name:"
+read b
+
+echo "enter the salary: "
+read c
+
+echo "report"
+
+d=`expr $c \* 20 / 100`
+echo "bonus 20% from the salary : $d"
+
+f=`expr $d + $c`
+echo "gross pay : $f"
+
+e=`expr $c \* 5 / 100`
+echo "expenditure 5% from salary : $e"
+
+g=`expr $f - $e`
+echo "net pay : $g"
